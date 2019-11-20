@@ -2193,7 +2193,7 @@
     var tooltipWrapper = document.createElement('p');
     tooltipWrapper.innerHTML = item.hint;
 
-    var closeButton = document.createElement('a');
+    var closeButton = document.createElement('button');
     closeButton.className = this._options.buttonClass;
     closeButton.setAttribute('role', 'button');
     closeButton.innerHTML = this._options.hintButtonLabel;
