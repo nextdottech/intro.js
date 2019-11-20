@@ -1225,7 +1225,7 @@
       referenceLayer.appendChild(tooltipLayer);
 
       //next button
-      nextTooltipButton = document.createElement('button');
+      nextTooltipButton = document.createElement('a');
 
       nextTooltipButton.onclick = function() {
         if (self._introItems.length - 1 !== self._currentStep) {
@@ -1237,7 +1237,7 @@
       nextTooltipButton.innerHTML = this._options.nextLabel;
 
       //previous button
-      prevTooltipButton = document.createElement('button');
+      prevTooltipButton = document.createElement('a');
 
       prevTooltipButton.onclick = function() {
         if (self._currentStep !== 0) {
